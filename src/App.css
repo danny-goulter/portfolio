@@ -4,7 +4,7 @@
 
 .App-logo {
   height: 60vmin;
-  pointer-events:none;
+  pointer-events:all;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -26,6 +26,11 @@
 
 .App-link {
   color: #61dafb;
+}
+
+button {
+  border-radius: 100px;
+  background-image: "background.jpeg";
 }
 
 @keyframes App-logo-spin {
