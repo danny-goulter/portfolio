@@ -14,7 +14,6 @@
 }
 
 .App-header {
-  /* background-image: url('../public/background.jpeg'); */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -47,7 +46,42 @@ h2 {
 }
 
 .sections {
-  display: flex;
+  display: inline-flex;
+}
+
+.projects {
+  display:inline-flex;
+  max-width: 80vw;
+  
+}
+
+.projectDetails {
+  display:table;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectPics {
+  width: 70%;
+  height: auto;
+  box-shadow: 10px 10px 8px whitesmoke;
+}
+
+.projectDescription {
+  font-size:large;
+  padding: 10px;
+  background-color: rgb(48, 46, 46);
+  max-width: 400px;
+  border-radius: 12px;
+  margin-left: 90px;
+}
+
+a {
+  text-decoration-line: none;
+}
+
+a :hover {
+  color:white
 }
 
 @keyframes App-logo-spin {
