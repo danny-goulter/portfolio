@@ -1,12 +1,8 @@
 import './App.css';
+import Home from "./Home"
+import Footer from "./Footer"
 
 function App() {
-  const scratch = new Audio("recordScratch.wav")
-
-  function playScratch() {
-    console.log('this function runs')
-    return scratch.play()
-  }
 
   return (
     <div className="App">
@@ -14,12 +10,8 @@ function App() {
         <h1>
           Danny Goulter =&gt; Creative Thinker / Web Developer
         </h1>
-          <img onClick={playScratch} src="record.png"  className="App-logo" alt="spinning record" />
-            <section className="sections">
-              <h2>Projects</h2>
-              <h2>Bio</h2>
-              <h2>Contact</h2>
-            </section>
+        <Home />
+        <Footer />
       </header>    
     </div>
   );
