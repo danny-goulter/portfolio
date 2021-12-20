@@ -12,10 +12,15 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>
-          Danny Goulter - Creative Thinker / Web Developer
+          Danny Goulter =&gt; Creative Thinker / Web Developer
         </h1>
           <img onClick={playScratch} src="record.png"  className="App-logo" alt="spinning record" />
-      </header>
+            <section className="sections">
+              <h2>Projects</h2>
+              <h2>Bio</h2>
+              <h2>Contact</h2>
+            </section>
+      </header>    
     </div>
   );
 }
