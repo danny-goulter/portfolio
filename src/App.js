@@ -11,11 +11,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img onMouseOver={playScratch} src="record.png"  className="App-logo" alt="spinning record" />
-        <p>
+        <h1>
           Danny Goulter - Creative Thinker / Web Developer
-        </p>
-     
+        </h1>
+          <img onClick={playScratch} src="record.png"  className="App-logo" alt="spinning record" />
       </header>
     </div>
   );
