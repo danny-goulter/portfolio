@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  margin-top: 50px;
+  margin-top: 30px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -46,6 +46,17 @@ h2 {
   box-shadow: 10px 10px 8px whitesmoke;
 }
 
+span {
+  background-color: rgb(48, 46, 46);
+  display: inline-block;
+  width: fit-content;
+  color: goldenrod;
+  padding: 6px;
+  border-radius: 12px;
+  margin-left: 200px;
+  box-shadow: 10px 10px 8px whitesmoke;
+}
+
 .sections {
   display: inline-flex;
 }
@@ -74,7 +85,7 @@ h2 {
   background-color: rgb(48, 46, 46);
   max-width: 400px;
   border-radius: 12px;
-  margin-left: 90px;
+  margin-left: 30px;
 }
 
 a {
@@ -85,10 +96,74 @@ a :hover {
   color:white
 }
 
+a:visited {
+  color:goldenrod
+}
+
+.emailLink:hover{
+  color:white
+}
+
 embed {
   border-radius: 12px;
+  border: solid 5px black;
   box-shadow: 10px 10px 8px whitesmoke;
 }
+
+.contactDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.phone {
+  display:flex;
+  flex-direction: column;
+}
+
+.email {
+  display:flex;
+  flex-direction: column;
+}
+
+.location {
+  display:flex;
+  flex-direction:column;
+}
+
+.github {
+  display:flex;
+  flex-direction: column;
+}
+
+
+.phoneIcon {
+  width: 10%;
+  height: auto;
+  margin-bottom: -75px;
+  margin-left: 20px;
+}
+
+.emailIcon {
+  width: 10.5%;
+  height: auto;
+  margin-bottom: -75px;
+  margin-left: 20px;
+}
+
+.locationIcon {
+  width: 9%;
+  height: auto;
+  margin-bottom: -30px;
+  margin-left: 20px;
+}
+
+.githubIcon {
+  width: 9%;
+  height: auto;
+  margin-bottom: -30px;
+  margin-left: 20px;
+}
+
 
 @keyframes App-logo-spin {
   from {
