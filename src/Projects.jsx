@@ -15,7 +15,7 @@ function Projects () {
     },
     {
     image: "9weekRecord.png", 
-      description: "This app was built as my group's final project for the DEV ACADEMY bootcamp. It was designed a yearbook style app for our cohort to use to keep in touch with one another post-bootcamp and reminisce about their time in bootcamp using personal quotes and comments posted on users' pages. It was built using a robust tech-stack including Node.js, Knex.js, Express, React, Redux, and Firebase. I was Scrum Facilitator and Git Keeper so oversaw many aspects of the codebase and got most involved with the feature to add comments and assisted our designer with the styling of the app.",
+      description: "This app was built as my group's final project for the DEV ACADEMY bootcamp. It was designed as a yearbook style app for our cohort to use to keep in touch with one another post-bootcamp and reminisce about their time in bootcamp using personal quotes and comments posted on users' pages. It was built using a robust tech-stack including Node.js, Knex.js, Express, React, Redux, and Firebase. I was Scrum Facilitator and Git Keeper so oversaw many aspects of the codebase and got most involved with the feature to add comments and assisted our designer with the styling of the app.",
       url: "https://eda-9-week-book.herokuapp.com/#/"
     }
     ]
