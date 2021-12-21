@@ -7,7 +7,7 @@ function Contact () {
       
       <div className="phone"> 
         <img className="phoneIcon" src="phoneicon.png" alt="phone symbol"></img><br/>
-        <span>+64 22 126 5104</span>
+        <span><a className="phoneLink" href="tel:0221265104">022 126 5104</a></span>
       </div>
 
       <div className="email">
