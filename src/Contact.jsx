@@ -17,12 +17,12 @@ function Contact () {
    
       <div className="location">
         <img className="locationIcon" src="locationicon.png" alt="location symbol"></img>
-        <span>I am based in Christchurch NZ. For an exact postal address please contact me directly.</span>
+        <span>I am based in <a className="locationLink" href="https://www.google.co.nz/maps/place/Christchurch/@-43.5119965,172.5287907,12z/data=!3m1!4b1!4m5!3m4!1s0x6d322f4863c5ed01:0x500ef8684799945!8m2!3d-43.5320214!4d172.6305589">Christchurch, NZ</a>. For an exact postal address please contact me directly.</span>
       </div>
 
       <div className="github">
         <img className="githubIcon" src="githubicon.png" alt="github symbol"></img>
-        <span><a href="https://github.com/danny-goulter">Github</a></span>
+        <span><a className="githubLink" href="https://github.com/danny-goulter">Github</a></span>
       </div>
 
     </div>

@@ -51,6 +51,7 @@ span {
   border-radius: 12px;
   margin-left: 200px;
   box-shadow: 10px 10px 8px whitesmoke;
+  font-weight: bold;
 }
 
 .sections {
@@ -98,6 +99,15 @@ a:visited {
 .emailLink:hover{
   color:white
 }
+
+.locationLink:hover{
+  color:white
+}
+
+.githubLink:hover{
+  color:white
+}
+
 
 .phoneLink {
   color:goldenrod
